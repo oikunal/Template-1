@@ -1,0 +1,370 @@
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+        }
+
+        /* Header part of the page */
+
+        header {
+            border-bottom: 1px solid whitesmoke;
+        }
+
+        .header-text {
+            font-weight: 5px;
+            color: #888;
+            font-size: 15px;
+        
+        }
+        
+        .header-text .h-1:hover  {
+            color: #00afd1 ;
+            cursor: pointer;
+           
+        }
+
+        .header-text .h-2:hover {
+            color: #00afd1 ;
+            cursor: pointer
+        }
+
+        .fab, .fas   {
+            padding:5px 15px;
+        }
+
+        .fa-facebook-f:hover {
+            background: #3b5998;
+            color: white;
+            cursor: pointer;
+        }
+
+        .fa-twitter:hover {
+            background: #00aced;
+            color: white;
+            cursor: pointer;
+        }
+
+        .fa-google-plus-g:hover {
+            background: #dd4b39;
+            color: white;
+            cursor: pointer;
+        }
+
+        .fa-basketball-ball:hover {
+            background: #ea4c89;;
+            color: white;
+            cursor: pointer;
+        }
+        
+        .fa-linkedin-in:hover {
+            background:  #007bb6;
+            color: white;
+            cursor: pointer;
+        }
+
+        .fa-flickr:hover {
+            background: #ff0084;
+            color: white;
+            cursor: pointer;
+        }
+
+        .fa-tumblr:hover {
+            background: #32506d;
+            color: white;
+            cursor: pointer;
+        }
+
+        .fa-instagram:hover {
+            background: #bc2a8d;
+            color: white;
+            cursor: pointer;
+        }
+
+        .fa-skype:hover {
+            background: #00aced;
+            color: white;
+            cursor: pointer;
+        }
+
+        .fa-vimeo-v:hover {
+            background:  #45668e;
+            color: white;
+            cursor: pointer;
+        }
+
+        /* Navigation bar  */
+
+
+        .navbar-brand h3 {
+            font-weight: bolder !important;
+        }
+
+        .highlight {
+            color: #00afd1;
+        }
+
+        .navbar-nav li .active {
+            color: #00afd1 !important;
+            border-bottom: 1px solid #00afd1;
+        }
+
+        .navbar-nav li {
+            padding-left: 15px ;
+        }
+
+
+        .navbar-nav li a:hover {
+            color: #00afd1 !important;
+            border-bottom: 1px solid #00afd1;
+        }
+
+        /* landing  */
+
+        .landing-row img{
+            margin-top: -550px;
+        }
+
+        .landing-row h1 {
+            margin-top: -300px;
+        }
+        /* Carousel
+
+        .carousel-item > img {
+            height: 500px;
+            background-size: cover;
+            width: 100%;
+            opacity:;
+            background-image: inherit
+        }
+
+        .carousel-caption {
+            color: black;
+            font-size: 50PX;
+        } */
+
+
+        /* Our work */
+        .work {
+            margin-top: 5%;
+        }
+
+        .work-1:hover .fab,.work-1:hover .fas, .work-1:hover .far {
+            color:  #00afd1;
+            transition: 0.5s;
+            cursor: pointer;
+        }
+
+        /* What we did */
+        .archive {
+            margin-top: 5%;
+        }
+
+        /* .a-icon {
+        margin-left:160px;
+        padding: 10px;
+        margin-top: 10px;
+        }
+
+        .a-icon p {
+            padding-left: 8px;  ;
+        } */
+
+    
+        
+        /* Feature information */   
+        .feature {
+            margin-top: 5%
+        }
+
+        .f-info {
+            background: url('../img/cool-background.png');
+            height: 400px;
+            background-attachment: fixed;
+        }
+
+        .f-text {
+            margin-top: -310px;
+            text-align: center;
+            color: black;
+            opacity: 0.6;
+        }
+
+
+        /* Showcase  */
+        .showcase {
+            margin-top: 18%;
+        }
+
+        .s-text p {
+            margin-bottom: -3px;
+        }
+
+        .s-text h2 {
+            font-weight: bold;
+        }
+
+        /* Carousel 2 */
+
+        .c-text {
+            margin-top: -200px;
+            text-align: center;
+            color: white;
+            display: none;
+            
+        }
+
+        /* .carousel-item:hover .c-text {
+            display: block 
+        } */
+
+        .carousel-item img:hover  {
+            background: aqua;
+            opacity: 0.4;
+        }
+
+        .btn-1 {
+            text-align: center;
+            margin: 15px; 0px;
+        }
+
+        /* Carousel 3 */
+
+        .c-bg {
+            background: url(../img/black.png);
+            height: 300px;
+            background-attachment: fixed;
+
+        }
+
+        .carousel-3 {
+            text-align: center;
+        font-weight: bold;
+            color: white;
+            margin-top: -180px;
+        }
+
+
+        /* Work  */
+
+        .work {
+            margin-top: 5%;
+        }
+
+        .w-text p{
+            margin-bottom: -3px;
+            padding-bottom: 5px;    }
+
+        .w-text h2 {
+            font-weight: bold;
+            padding-bottom: 5px;
+        }
+
+        .card img {
+            filter: grayscale(100%)
+        }
+
+        .card:hover img {
+            filter: none;
+            cursor: pointer;
+        }
+
+        .card:hover {
+            box-shadow: 5px 6px 15px black;
+            transition: 0.8s
+        }
+
+        .card-title {
+            font-weight: bold
+        }
+        .card-text {
+            font-size: 15px;
+        }
+
+        /* Footer */
+
+        footer {
+            margin-top: 5%  ;
+            border-top: 4px solid #555;
+            background: #222;
+            height: 450px;
+            padding-top:60px;
+        }
+
+        .c-info h1 {
+            color: #eee;
+            font-size: 18px;
+        }
+
+        .c-info p {
+            color: #ccc;
+            font-size: 14px;
+        }
+        .brd-1{
+            border-bottom: 3px solid #333;
+            width: 65px;
+            margin: 10px 0px;
+        }
+
+        .flicker-feed {
+            padding: 8px 0px;
+            filter: opacity(0.4);
+            transform: 0.10s
+        }
+
+        .flicker-feed:hover {
+            cursor: pointer;
+            filter: opacity(1);
+        }
+
+         input[type="email"] {
+            width:170px !important;
+            height: 35px;;
+        }
+
+        .footer-icon {
+            color: white;
+            transition: 5s
+        }
+
+        /* @media 992px */
+
+       @media only screen and (max-width: 992px) {
+           header {
+               display: none;
+           }
+
+           .v-img-1 {
+            width: 800px;
+            padding: 10px
+        }
+       }   
+
+       /* @media 768px */
+       @media only screen and (max-width:768px) {
+            
+            .landing-row img {
+                   display: none;
+            }
+
+            .landing-row {
+                padding-left: 60px;         }
+
+            .v-img-1 {
+                width: 500px;
+                padding: 10px
+            }
+
+            .footer {
+                height: 1500px;
+            }
+            
+            .c-info .flicker-feed{
+
+                display: none;
+            }
+         
+       footer {
+           background: #222;
+           height: 800px ;
+       }
+    }
