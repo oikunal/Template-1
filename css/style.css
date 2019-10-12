@@ -238,7 +238,7 @@
 
         .carousel-3 {
             text-align: center;
-        font-weight: bold;
+             font-weight: bold;
             color: white;
             margin-top: -180px;
         }
@@ -368,3 +368,20 @@
            height: 800px ;
        }
     }
+
+    @media only screen and (max-width:768px) {
+        .f-text {
+            margin-top: -360px   
+                 
+        }
+
+        .carousel-3  {
+            margin-top: -250px
+        }
+
+        .card {
+            margin-bottom: 15px
+        }
+    }
+
+        
